@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarun Surya Sai Doddapaneni</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .about, .contact {
+            margin: 20px 0;
+        }
+        .about img {
+            max-width: 200px;
+            border-radius: 50%;
+        }
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #0077b5; /* LinkedIn blue */
+        }
+        .social-links a.youtube {
+            color: #FF0000; /* YouTube red */
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Tarun Surya Sai Doddapaneni</h1>
+            <p>Welcome to my personal webpage</p>
+        </header>
+        <section class="about">
+            <h2>About Me</h2>
+            <img src="https://media.licdn.com/dms/image/C5603AQFjFS2y6sekyA/profile-displayphoto-shrink_400_400/0/1641857227684?e=1721260800&v=beta&t=3yeash_dH56Kk-HrqwuKcewGVP7quG_fIScymzF-EdI" alt="Tarun Surya Sai Doddapaneni">
+            <p>I'm a working professional as a Cloud Engineer using Amazon Web Services.</p>
+        </section>
+        <section class="contact">
+            <h2>Contact Me</h2>
+            <p>Phone: 7842836143</p>
+            <p>You can reach me through my social media profiles:</p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/tarundoddapaneni/" target="_blank" class="linkedin">LinkedIn</a>
+                <a href="https://www.youtube.com/channel/UCPzn_jWziahrzee5_w_1tdA" target="_blank" class="youtube">YouTube</a>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
